@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "CascadiaMono";
+    src: url("CascadiaMono.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'CascadiaMono', serif;
+    background-color: #000;
+}
+
+.main {
+    padding: 20px;
+}
+
+.command {
+    color: #fff;
+}
+
+.result {
+    color: #627597;
+    margin: 0;
+    width: 1000px;
+    padding-left: 30px;
+}
+
+.green {
+    color: #00cfc8;
+}
+
+.red {
+    color: #ee4b5b;
+}
+
+.white_highlight {
+    color: #000;
+    background-color: #fff;
+}
+
+.pseudo {
+    color: #ff0303;
+    text-shadow:
+            0 0 2px #f00505,
+            0 0 4px #ff2c05,
+            0 0 6px #fd6104,
+            0 0 10px #fd9a01,
+            0 0 45px #ffce03,
+            0 0 55px #fef001;
+}
+
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 5px;
+    word-break: normal;
+}
+
+.tg .tg-0pky {
+    border-color: inherit;
+    text-align: center;
+    vertical-align: center;
+}
